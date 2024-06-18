@@ -10,7 +10,7 @@ api_key = st.secrets["OPENAI_API_KEY"]
 openai_base_url = st.secrets.get("OPENAI_BASE_URL")
 notion_token = st.secrets["NOTION_API_KEY"]
 
-default_vault_path ='/home/debian/Projects-A/streamlit/photes-lite/'
+default_vault_path ='photes-lite/'
 client = OpenAI(api_key=api_key, base_url=openai_base_url)
 
 with st.sidebar:
