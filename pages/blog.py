@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("Turn your photos into notes with AI")
 st.write("The project aims to quickly convert your photos in to  description to the markdown notion editable text format by uploading an image on drop down")
-st.image("/home/debian/Projects-A/streamlit/photes-lite/pics/image1.jpg")
+st.image("https://github.com/vivekadepu/photo-text/blob/main/image1.jpg")
 
 st.write("The main interface of the app is designed to be user-friendly and easy to use")
 
@@ -10,7 +10,7 @@ st.write("The main interface of the app is designed to be user-friendly and easy
 
 
 st.subheader('Key Features of the App')
-st.image("/home/debian/Projects-A/streamlit/photes-lite/pics/image2.jpg", caption="QR Code Scanner", width=250)
+st.image("https://github.com/vivekadepu/photo-text/blob/main/image2.jpg", caption="QR Code Scanner", width=250)
 
 st.markdown(
 
@@ -38,7 +38,7 @@ st.markdown(
 
 
 
-st.image("/home/debian/Projects-A/streamlit/photes-lite/pics/image3.jpg", caption="Note Title Input",width=600)
+st.image("https://github.com/vivekadepu/photo-text/blob/main/image3.jpg", caption="Note Title Input",width=600)
 
 st.markdown(
 
@@ -60,12 +60,12 @@ st.markdown(
 """
 )
 
-st.image("/home/debian/Projects-A/streamlit/photes-lite/pics/image4.jpg", caption="sample image uploading for testing",width=300)
+st.image("https://github.com/vivekadepu/photo-text/blob/main/image4.jpg", caption="sample image uploading for testing",width=300)
 
 
 st.subheader("Result")
 
-st.image("/home/debian/Projects-A/streamlit/photes-lite/pics/image5.jpg", caption="output of the above sample image",use_column_width=True)
+st.image("https://github.com/vivekadepu/photo-text/blob/main/image5.jpg", caption="output of the above sample image",use_column_width=True)
 
 st.markdown(
 
