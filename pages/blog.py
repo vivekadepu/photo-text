@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("Turn your photos into notes with AI")
 st.write("The project aims to quickly convert your photos in to  description to the markdown notion editable text format by uploading an image on drop down")
-st.image("https://github.com/vivekadepu/photo-text/blob/main/image1.jpg")
+st.image("https://raw.githubusercontent.com/vivekadepu/photo-text/main/image1.jpg")
 
 st.write("The main interface of the app is designed to be user-friendly and easy to use")
 
